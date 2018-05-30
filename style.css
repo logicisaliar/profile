@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(200,200,200);
+  font-family: Calibri;
+  color: rgb(50,50,50);
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  color: rgb(200,10,10);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+
+.links {
+  background-color: rgba(155, 215, 125, 0.47);
+  border: 2.5px solid rgb(105,135,55);
+  border-radius: 5px;
+}
+.container {
+  width: 500px;   /* This sets the width */
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.margin {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+.books {
+  background-color: rgba(50,50,50,0.5);
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 500px  ;
+}
+
+.bphoto{
+  width:150px;
+  height:180px;
+}
+.btext{
+  width: 100%;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+#about {
+  padding: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 5px 20px;
+  /*padding-left: 5px;*/
+}
+
+.list-inline {
+  /*margin: 0;*/
+  padding: 0;
+}
+
+.img-box {
+  border: 8px solid rgba(11,32,9,0.2);
+  border-radius: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
